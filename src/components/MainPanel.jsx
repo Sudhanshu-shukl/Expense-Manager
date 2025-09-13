@@ -30,8 +30,7 @@ const MainPanel = () => {
                 ${activeView === tab.id
                                     ? 'bg-white text-primary-600 shadow-sm'
                                     : 'text-gray-600 hover:text-gray-800 hover:bg-white/50'
-                                }
-              `}
+                                }`}
                         >
                             <Icon className="w-4 h-4" />
                             <span className="hidden sm:inline">{tab.label}</span>
